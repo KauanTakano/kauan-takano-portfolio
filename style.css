@@ -1,0 +1,102 @@
+
+/* FORMATAÇÃO PADRÃO PARA TODAS AS PÁGINA */
+body {
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-size: 30px;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;    /* Alinha verticalmente */
+}
+
+.bloco {
+    float:left;
+    background-color: rgb(182, 30, 0);
+
+}
+li a {
+    display: block;
+    color: #000000;
+    padding: 8px 30px;
+    text-decoration: none;   
+}
+
+.link:hover {
+    background-color: #000;
+    color: white;
+}
+
+.h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* INDEX */
+h2 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0;
+}
+ /* FORMAÇÃO */
+.lista {
+    font-size: 20px;
+    margin-left: 15%;
+    font-family: cursive;
+}
+
+/* PORTFÓLIO */
+#git {
+    font-size: 30px;
+    font-family: arial;
+    background-color: rgb(0, 255, 251);
+}
+
+/* CONTATO */
+#img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#icones {
+    width: 150px;
+    height: 150px;
+}
+
+.contato-icone {
+    flex-direction: column
+    display: flex; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha verticalmente no centro */
+    gap: 20px; /* Espaçamento entre os ícones e os textos */
+}
+
+.contato-icone img {
+    width: 80px; /* Tamanho dos ícones */
+    height: 80px;
+}
+
+.contato-icone .contato-item {
+    display: flex; /* Alinha o ícone e o texto horizontalmente */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.contato-icone span {
+    font-size: 20px; /* Tamanho do texto */
+    color: white;
+}
+
+.contato-icone a {
+    color: white;
+}
